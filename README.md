@@ -1,0 +1,58 @@
+# qwen-code Doramagic Pack
+
+Pack version: `v1.0.0` · Last updated: `2026-05-14`
+
+[![Pack v1.0.0](https://img.shields.io/badge/pack-v1.0.0-blue)](./CHANGELOG.md)
+[![License](https://img.shields.io/github/license/tangweigang-jpg/doramagic-qwen-code-pack)](./LICENSE)
+[![Issues](https://img.shields.io/github/issues/tangweigang-jpg/doramagic-qwen-code-pack)](https://github.com/tangweigang-jpg/doramagic-qwen-code-pack/issues)
+
+Languages: English | [中文](./README.zh-CN.md)
+
+Before you let an AI coding agent touch a new repo, you need to know: does it actually stop at危险 boundaries, does it recover when the first step fails, and can you verify it without installing anything?
+
+This pack gives your agent a pre-flight checklist for QwenLM/qwen-code — smoke tests, boundary rules, pitfall recovery, and host instructions you can load before the agent touches a single file.
+
+> This is an independent capability pack. It is not affiliated with or endorsed by QwenLM/qwen-code unless explicitly stated.
+
+## Copy / Run / Verify
+
+1. Copy `AGENTS.md` or `CLAUDE.md` into your AI coding host.
+2. Run the first prompt in `01_PROMPT_PREVIEW.md`.
+3. Verify behavior with `06_EVALS/smoke_check.md`, then recover with `03_PITFALL_LOG.md` if it fails.
+
+Quick links:
+[Start](./AGENTS.md) · [Prompt](./01_PROMPT_PREVIEW.md) · [Evals](./06_EVALS/) · [Pitfalls](./03_PITFALL_LOG.md)
+
+## When This Helps
+
+Use this pack when you want an AI agent to make qwen-code safer to evaluate through host instructions, coding-agent boundaries, eval prompts, and recovery checks for terminal workflow failures without pretending the upstream tool is already installed, verified, or officially endorsed.
+
+## What You Get
+
+- Host instructions for AI coding agents.
+- A copyable prompt preview.
+- Acceptance checks.
+- Pitfall log and recovery steps.
+- Boundary and risk card.
+- Source attribution and upstream links.
+
+If this pack helps your agent work from evidence instead of guesses, star the repo so future updates are easier to find. Open an issue for bugs, usage questions, or new pitfall reports.
+
+## AGENTS.md for Claude Code and AI Coding Agents
+
+Use `AGENTS.md` for agent hosts that support repository instructions. Use `CLAUDE.md` when Claude Code is the target host.
+
+## QwenLM/qwen-code Pitfalls and Recovery
+
+Start with `03_PITFALL_LOG.md` when setup, permissions, runtime behavior, or verification fails.
+
+## Source Attribution
+
+This project pack was assembled by [Doramagic](https://doramagic.ai) to make QwenLM/qwen-code usable as a portable AI capability asset.
+
+- Upstream/source: https://github.com/QwenLM/qwen-code
+- License: Apache-2.0
+- Pack contents: prompts, host instructions, checks, guardrails, and validation notes
+- Relationship: independent pack; not affiliated with or endorsed by QwenLM/qwen-code unless explicitly stated
+
+If you maintain the upstream project and want attribution changed or removed, open an issue in this repository.
