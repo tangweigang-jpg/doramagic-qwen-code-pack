@@ -21,7 +21,7 @@ This pack gives your agent a pre-flight checklist for QwenLM/qwen-code — smoke
 3. Verify behavior with `06_EVALS/smoke_check.md`, then recover with `03_PITFALL_LOG.md` if it fails.
 
 Quick links:
-[Start](./AGENTS.md) · [Prompt](./01_PROMPT_PREVIEW.md) · [Evals](./06_EVALS/) · [Pitfalls](./03_PITFALL_LOG.md)
+[Start](./AGENTS.md) · [Prompt](./01_PROMPT_PREVIEW.md) · [Evals](./06_EVALS/) · [Pitfalls](./03_PITFALL_LOG.md) · [Manual](./05_HUMAN_MANUAL.md)
 
 ## When This Helps
 
@@ -34,6 +34,7 @@ Use this pack when you want an AI agent to make qwen-code safer to evaluate thro
 - Acceptance checks.
 - Pitfall log and recovery steps.
 - Boundary and risk card.
+- Human reference manual (`05_HUMAN_MANUAL.md`) — architecture, components, and failure taxonomy.
 - Source attribution and upstream links.
 
 If this pack helps your agent work from evidence instead of guesses, star the repo so future updates are easier to find. Open an issue for bugs, usage questions, or new pitfall reports.
