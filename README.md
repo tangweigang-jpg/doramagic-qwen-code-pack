@@ -1,4 +1,4 @@
-# qwen-code Doramagic Pack
+# Qwen Code AI Context Pack for Claude Code, Codex, Cursor, and Aider
 
 Pack version: `v1.0.0` · Last updated: `2026-05-14`
 
@@ -9,6 +9,8 @@ Pack version: `v1.0.0` · Last updated: `2026-05-14`
 Languages: English | [中文](./README.zh-CN.md)
 
 Before you let an AI coding agent touch a new repo, you need to know: does it actually stop at危险 boundaries, does it recover when the first step fails, and can you verify it without installing anything?
+
+This is an independent AI context resource pack for QwenLM/qwen-code.: host instructions, prompt preview, evals, pitfalls, and recovery rules you can load into Claude Code, Codex, Cursor, Aider, and other AI coding agents.
 
 This pack gives your agent a pre-flight checklist for QwenLM/qwen-code — smoke tests, boundary rules, pitfall recovery, and host instructions you can load before the agent touches a single file.
 
@@ -25,7 +27,8 @@ Quick links:
 
 ## When This Helps
 
-Use this pack when you want an AI agent to make qwen-code safer to evaluate through host instructions, coding-agent boundaries, eval prompts, and recovery checks for terminal workflow failures without pretending the upstream tool is already installed, verified, or officially endorsed.
+Use this pack when you want an AI coding agent to understand the upstream project context, setup boundaries, common pitfalls, and verification steps before it edits files, installs dependencies, or claims the tool is ready.
+
 
 ## What You Get
 
