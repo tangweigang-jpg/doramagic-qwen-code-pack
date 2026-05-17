@@ -10,7 +10,7 @@ Languages: English | [中文](./README.zh-CN.md)
 
 Before you let an AI coding agent touch a new repo, you need to know: does it actually stop at危险 boundaries, does it recover when the first step fails, and can you verify it without installing anything?
 
-This is an independent AI context resource pack for QwenLM/qwen-code.: host instructions, prompt preview, evals, pitfalls, and recovery rules you can load into Claude Code, Codex, Cursor, Aider, and other AI coding agents.
+This is an independent AI context resource pack for QwenLM/qwen-code: host instructions, prompt preview, evals, pitfalls, and recovery rules you can load into Claude Code, Codex, Cursor, Aider, and other AI coding agents.
 
 This pack gives your agent a pre-flight checklist for QwenLM/qwen-code — smoke tests, boundary rules, pitfall recovery, and host instructions you can load before the agent touches a single file.
 
