@@ -2,24 +2,24 @@
 
 ## About
 
-Description: Terminal Coding Agent Pack for AI coding agents: ready-to-use AGENTS.md, CLAUDE.md, evals, and pitfall recovery for QwenLM/qwen-code.
+Description: Qwen Code AI context pack for Claude Code, Codex, Cursor, and Aider: AGENTS.md, CLAUDE.md, prompts, evals, pitfalls, and verification notes for QwenLM/qwen-code.
 
-Homepage: https://doramagic.ai/projects/qwen-code/
+Homepage: https://doramagic.ai/en/projects/qwen-code/
 
 Topics:
 
+- qwen-code
+- ai-context-pack
+- ai-coding-agent
+- agents-md
+- claude-code
+- codex
+- cursor
 - browser-agents
 - web-task-automation
 - code-review
 - node-based-workflow
 - local-first
-- terminal
-- coding
-- agent
-- qwen-code
-- ai-coding-agent
-- skill-system
-- terminal-workflow
 
 ## Interaction Settings
 
@@ -36,7 +36,7 @@ Social preview: upload-ready asset available at `assets/social-preview.svg`; rec
 ## Metadata Rationale
 
 - Name keeps the `doramagic-{project-slug}-pack` pattern.
-- Description must include the upstream keyword, capability-pack type, concrete user outcome, and host/use artifact keywords.
-- Topics stay focused on upstream domain (qwen-code, terminal-workflow, skill-system), agent host (browser-agents, ai-coding-agent), use case (code-review, web-task-automation), and Doramagic brand (agent, terminal, coding).
+- Description is unique per repository and frames the asset as a project-specific AI context pack, not a generic Doramagic backlink.
+- Topics combine upstream/project discovery terms with AI coding agent host terms.
+- Homepage points to the best currently available Doramagic project page for structured manual and SEO/GEO continuity.
 - Issue templates collect bug reports, usage questions, and pitfall reports as early traffic-quality signals.
-- Badges and low-pressure CTA are used to improve first-impression trust and feedback conversion without turning the README into a landing page.
